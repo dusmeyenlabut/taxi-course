@@ -1,0 +1,7 @@
+{
+  "name": "Taxi Course",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
