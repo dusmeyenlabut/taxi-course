@@ -6,7 +6,7 @@ import { Tab1Page } from './tab1.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
-import { FlashCardComponent } from '../flash-card/flash-card.component';
+import { SharedModule } from '../modules/shared/shared.module';
 
 @NgModule({
   imports: [
@@ -14,8 +14,9 @@ import { FlashCardComponent } from '../flash-card/flash-card.component';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    Tab1PageRoutingModule
+    Tab1PageRoutingModule,
+    SharedModule
   ],
-  declarations: [Tab1Page, FlashCardComponent]
+  declarations: [Tab1Page]
 })
 export class Tab1PageModule {}

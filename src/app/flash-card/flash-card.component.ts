@@ -8,6 +8,7 @@ import { Component, Input } from '@angular/core';
 export class FlashCardComponent{
 
   @Input('isFlipped') flipCard: boolean;
+  @Input('checked') checked: boolean;
   constructor() { }
 
 }
