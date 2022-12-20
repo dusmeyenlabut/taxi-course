@@ -1,0 +1,20 @@
+[
+    {
+        "number": 1,
+        "question": "7x8 Kaçtir?",
+        "answers": [
+            {
+                "value":"42","success":"false"
+            },
+            {
+                "value":"56","success":"true"
+            },
+            {
+                "value":"65","success":"false"
+            },
+            {
+                "value":"72","success":"false"
+            }
+        ]
+    }
+]

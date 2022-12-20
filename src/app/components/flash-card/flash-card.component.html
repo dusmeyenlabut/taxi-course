@@ -1,11 +1,28 @@
-<ion-header>
-  <ion-navbar color="danger">
-    <ion-title> Flash Cards </ion-title>
-  </ion-navbar>
-</ion-header>
 <ion-content>
-  <flash-card>
-    <div class="flash-card-front">FLASH CARDS</div>
-    <div class="flash-card-back">ARE COOL!</div>
-  </flash-card>
+  <ion-card *ngIf="!showAnswer">
+    <ion-card-header>
+      <ion-card-title>{{ title }}</ion-card-title>
+      <ion-card-subtitle></ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list *ngFor="let answer of answers">
+        <ion-item (click)="getAnswer()">
+          <ion-label>{{ answer.value }}</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+  <ion-card *ngIf="showAnswer">
+    <ion-card-header>
+      <ion-card-title>Cevap 1</ion-card-title>
+      <ion-card-subtitle>Cevap İçeriği</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label>Doğru Cevap</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
