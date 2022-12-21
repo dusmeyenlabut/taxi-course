@@ -16,5 +16,59 @@
                 "value":"72","success":"false"
             }
         ]
+    },
+    {
+        "number": 3,
+        "question": "7x9 Kaçtir?",
+        "answers": [
+            {
+                "value":"42","success":"false"
+            },
+            {
+                "value":"56","success":"false"
+            },
+            {
+                "value":"63","success":"true"
+            },
+            {
+                "value":"72","success":"false"
+            }
+        ]
+    },
+    {
+        "number": 4,
+        "question": "7x8 Kaçtir?",
+        "answers": [
+            {
+                "value":"42","success":"false"
+            },
+            {
+                "value":"56","success":"true"
+            },
+            {
+                "value":"65","success":"false"
+            },
+            {
+                "value":"72","success":"false"
+            }
+        ]
+    },
+    {
+        "number": 2,
+        "question": "7x9 Kaçtir?",
+        "answers": [
+            {
+                "value":"42","success":"false"
+            },
+            {
+                "value":"56","success":"false"
+            },
+            {
+                "value":"63","success":"true"
+            },
+            {
+                "value":"72","success":"false"
+            }
+        ]
     }
 ]
